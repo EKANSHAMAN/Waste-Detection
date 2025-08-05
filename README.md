@@ -16,15 +16,16 @@ A Machine Learning project to classify garbage waste into categories like plasti
 
 ```
 waste-classifier/
-├── backend/
-│   ├── main.py                # FastAPI app
-│   ├── mobilenetv2_waste_classifier.h5  # Trained model
-│   ├── requirements.txt       # Python dependencies
-│   └── render.yaml            # Render deployment config
-├── cli/
-│   └── predict_cli.py         # CLI-based prediction
+├── app/
+│ ├── main.py # FastAPI app
+│ ├── mobilenetv2_waste_classifier.h5 # Trained model
+│ 
+│
 ├── frontend/
-│   └── index.html             # Simple frontend to upload and predict image
+│ └── index.html # Simple frontend to upload and predict image
+│----predict_cli.py # CLI-based prediction
+├── render.yaml # Render deployment configuration
+├── requirements.txt # Python dependencies
 └── README.md
 ```
 
